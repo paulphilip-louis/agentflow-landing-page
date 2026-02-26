@@ -61,6 +61,22 @@ export default function Problem() {
             </div>
           ))}
         </div>
+
+        {/* BVP pull quote */}
+        <blockquote className="mt-16 rounded-2xl border border-indigo-100 bg-indigo-50 px-8 py-7">
+          <p className="text-slate-700 leading-relaxed italic">
+            &ldquo;Instead of chasing leaderboard scores, companies are building
+            internal eval suites to measure how AI performs across
+            privacy-sensitive workflows, customer support, document parsing, and
+            agent decision-making.&rdquo;
+          </p>
+          <footer className="mt-4 flex items-center gap-3">
+            <span className="h-px w-6 bg-indigo-300" />
+            <cite className="not-italic text-sm font-medium text-indigo-600">
+              Bessemer Venture Partners — The State of AI 2025
+            </cite>
+          </footer>
+        </blockquote>
       </div>
     </section>
   );
